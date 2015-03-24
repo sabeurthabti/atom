@@ -1,0 +1,25 @@
+"*":
+  editor:
+    fontFamily: "Menlo"
+    fontSize: 12
+    invisibles: {}
+  core:
+    projectHome: "~/workspace"
+    excludeVcsIgnoredPaths: false
+    followSymlinks: true
+    showIndentGuide: true
+    useShadowDOM: true
+    zoomFontWhenCtrlScrolling: true
+    themes: [
+      "one-dark-ui"
+      "one-dark-syntax"
+    ]
+  "exception-reporting":
+    userId: "7411b049-d54c-9f27-4770-7de9e3c5df49"
+  welcome:
+    showOnStartup: false
+  react: {}
+  autosave:
+    enabled: true
+  "tree-view":
+    hideVcsIgnoredFiles: true
