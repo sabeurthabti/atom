@@ -1,9 +1,8 @@
 {
   "name": "linter-jsonlint",
   "linter-package": true,
-  "activationEvents": [],
   "main": "./lib/init",
-  "version": "0.1.2",
+  "version": "0.1.4",
   "description": "Lint JSON on the fly",
   "repository": {
     "type": "git",
@@ -22,10 +21,10 @@
     "url": "https://github.com/AtomLinter/linter-jsonlint/issues"
   },
   "homepage": "https://github.com/AtomLinter/linter-jsonlint",
-  "_id": "linter-jsonlint@0.1.2",
-  "_shasum": "fd67c82cf968499530040571542f110ebc9c5bb1",
-  "_resolved": "file:../d-115219-26493-ftxj0b/package.tgz",
-  "_from": "../d-115219-26493-ftxj0b/package.tgz",
+  "_id": "linter-jsonlint@0.1.4",
+  "_shasum": "f3455d62eb54ededb60dee853f7e856551dce105",
+  "_resolved": "file:../d-11551-32123-1m5k65t/package.tgz",
+  "_from": "../d-11551-32123-1m5k65t/package.tgz",
   "_atomModuleCache": {
     "version": 1,
     "dependencies": [

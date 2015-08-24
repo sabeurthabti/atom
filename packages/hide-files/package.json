@@ -1,8 +1,8 @@
 {
   "name": "hide-files",
   "main": "index.coffee",
-  "version": "0.1.5",
-  "description": "Hide files and folders in file tree",
+  "version": "0.1.7",
+  "description": "Hide files and folders in the file tree",
   "repository": {
     "type": "git",
     "url": "https://github.com/imamathwiz/atom-hide-files"
@@ -15,13 +15,13 @@
   "bugs": {
     "url": "https://github.com/imamathwiz/atom-hide-files/issues"
   },
-  "readme": "#Hide Files in the file tree\n\nEasily focus on the task at hand by hiding irrelevantly files and directories.\n\n##Feature\n* hide file or directory\n* unhide all hidden files\n\n##Usage\n* Hiding\n  * hide file or directory from context menu in tree view\n  * hide file by using\n    * Mac: `SHIFT + CMD + H`\n    * Windows/Linux: 'SHIFT + CTRL + H'\n* Unhide everything\n  * unhide by using with the command bar or keys:\n    * Mac: `SHIFT + CMD + U`\n    * Windows/Linux: `SHIFT + CTRL + U`\n\n##Todos\n* add ability to save hidden files after reopening atom\n* have ability to save 'hidden files' state to reload at later time\n",
+  "readme": "#Hide Files in the file tree\n\nEasily focus on the task at hand by hiding irrelevantly files and directories.\n\n##Feature\n* hide file or directory\n* unhide all hidden files\n\n##Usage\n* Hiding\n  * hide file or directory from context menu in tree view\n  * hide file by using\n    * Mac: `SHIFT + CMD + H`\n    * Windows/Linux: 'SHIFT + CTRL + H'\n* Unhide everything\n  * unhide by using with the command bar or keys:\n    * Mac: `SHIFT + CMD + U`\n    * Windows/Linux: `SHIFT + CTRL + U`\n\n##Todos\n* add ability to save state of hidden files/folders and rehide files/folders when the project is reopened.\n",
   "readmeFilename": "README.md",
   "homepage": "https://github.com/imamathwiz/atom-hide-files",
-  "_id": "hide-files@0.1.5",
-  "_shasum": "5271aa9b87d594534c4a22e2fd635bdcff1cefa7",
-  "_resolved": "file:../d-115219-47493-2yi3vx/package.tgz",
-  "_from": "../d-115219-47493-2yi3vx/package.tgz",
+  "_id": "hide-files@0.1.7",
+  "_shasum": "8c0f1be8852b955b92898ea397e19ed0892962fc",
+  "_resolved": "file:../d-11551-32109-14c0ywe/package.tgz",
+  "_from": "../d-11551-32109-14c0ywe/package.tgz",
   "_atomModuleCache": {
     "version": 1,
     "dependencies": [],
