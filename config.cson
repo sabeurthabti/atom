@@ -34,3 +34,9 @@
   "tree-view":
     hideVcsIgnoredFiles: true
   "git-blame-plus": {}
+  "file-watcher":
+    promptWhenFileHasChangedOnDisk: false
+  nuclide:
+    remoteProjectsConfig: []
+  "one-dark-ui":
+    layoutMode: "Compact"
