@@ -1,18 +1,7 @@
 "*":
-  editor:
-    fontFamily: "Menlo"
-    invisibles: {}
-    fontSize: 13
+  autosave:
+    enabled: true
   core:
-    projectHome: "~/workspace"
-    followSymlinks: true
-    showIndentGuide: true
-    useShadowDOM: true
-    zoomFontWhenCtrlScrolling: true
-    themes: [
-      "one-dark-ui"
-      "one-dark-syntax"
-    ]
     disabledPackages: [
       "language-toml"
       "language-sql"
@@ -23,20 +12,31 @@
       "language-csharp"
       "language-c"
       "language-clojure"
+      "linter-scss-lint"
     ]
+    followSymlinks: true
+    projectHome: "~/workspace"
+    showIndentGuide: true
+    useShadowDOM: true
+    zoomFontWhenCtrlScrolling: true
+  editor:
+    fontFamily: "Menlo"
+    fontSize: 12
+    invisibles: {}
+  emmet: {}
   "exception-reporting":
     userId: "7411b049-d54c-9f27-4770-7de9e3c5df49"
-  welcome:
-    showOnStartup: false
-  react: {}
-  autosave:
-    enabled: true
-  "tree-view":
-    hideVcsIgnoredFiles: true
-  "git-blame-plus": {}
   "file-watcher":
     promptWhenFileHasChangedOnDisk: false
+  "git-blame-plus": {}
+  linter:
+    errorPanelHeight: 23
   nuclide:
     remoteProjectsConfig: []
   "one-dark-ui":
     layoutMode: "Compact"
+  react: {}
+  "tree-view":
+    hideVcsIgnoredFiles: true
+  welcome:
+    showOnStartup: false

@@ -4,7 +4,7 @@ atom-text-editor::shadow .editor-contents--private .highlight.hyperclick > .regi
   border-bottom: 1px solid @syntax-text-color;
 }
 
-atom-text-editor.hyperclick::shadow .editor-contents--private {
+atom-text-editor:not([mini]).hyperclick::shadow .editor-contents--private {
   /**
    * Unfortunately, this cannot be a property of `.hyperclick .region`:
    * https://discuss.atom.io/t/some-css-styles-not-honored-by-decorations/11662
@@ -12,7 +12,7 @@ atom-text-editor.hyperclick::shadow .editor-contents--private {
   cursor: pointer;
 }
 
-atom-text-editor.hyperclick-loading::shadow .editor-contents--private {
+atom-text-editor:not([mini]).hyperclick-loading::shadow .editor-contents--private {
   cursor: wait;
 }
 
@@ -20,10 +20,32 @@ hyperclick-suggestion-list {
   cursor: default;
 }
 
-.hyperclick-suggestion-list-scroller {
+.hyperclick-suggestion-list-scroller.popover-list.select-list {
   overflow-y: auto;
+  width: inherit;
+  max-width: 500px;
 }
 
 .hyperclick-result-item {
   cursor: pointer;
+}
+
+@font-size-small: .9em;
+@item-padding: .75em;
+@item-side-padding: .6em;
+
+hyperclick-suggestion-list {
+  .right-label {
+    float: right;
+    padding-left: @item-padding;
+    padding-right: @item-side-padding;
+
+    font-size: @font-size-small;
+    color: @text-color-subtle;
+
+    &:empty {
+      width: @item-side-padding;
+      padding: 0;
+    }
+  }
 }

@@ -1,2 +1,0 @@
-require('');
-console.log('fuzz');
